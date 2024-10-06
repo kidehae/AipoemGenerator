@@ -7,38 +7,41 @@
     <title>Poem Generator</title>
   </head>
   <body>
-    <heading>
-      <h1>AI poem Generator</h1>
-    </heading>
-    <main>
-      <form>
-        <input
-          type="text"
-          placeholder="Write the topic of the poem..."
-          required
-          autofocus
-          autocomplete="off"
-        />
-        <input type="submit" value="submit" />
+    <div class="container">
+      <heading>
+        <h1>AI poem Generator</h1>
+      </heading>
+      <main>
+        <form>
+          <input
+            type="text"
+            placeholder="Write the topic of the poem..."
+            required
+            autofocus
+            autocomplete="off"
+            class="topic"
+          />
+          <input type="submit" value="submit" class="submit" />
+        </form>
         <div class="thePoem">
           Suicide's Note<br />Langston Hughes<br />The calm,<br />
           Cool face of the river<br />
           Asked me for a kiss
         </div>
-      </form>
-    </main>
-    <footer>
-      This project was coded by
-      <a href="https://github.com/kidehae" target="_blank">Meaza Mulatu</a>
-      and is open sourced
-      <a href="https://github.com/kidehae/AipoemGenerator" target="_blank">
-        on GitHub</a
-      >
-      and
-      <a href="https://aipoemwriter.netlify.app/" target="_blank"
-        >hosted on Netlify</a
-      >
-    </footer>
+      </main>
+      <footer>
+        This project was coded by
+        <a href="https://github.com/kidehae" target="_blank">Meaza Mulatu</a>
+        and is open sourced
+        <a href="https://github.com/kidehae/AipoemGenerator" target="_blank">
+          on GitHub</a
+        >
+        and
+        <a href="https://aipoemwriter.netlify.app/" target="_blank"
+          >hosted on Netlify</a
+        >
+      </footer>
+    </div>
     <script src="src/index.js"></script>
   </body>
 </html>
