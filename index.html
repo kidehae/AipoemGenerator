@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="src/style.css" />
+    <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
     <title>Poem Generator</title>
   </head>
   <body>
@@ -12,7 +13,7 @@
         <h1>AI poem Generator</h1>
       </heading>
       <main>
-        <form>
+        <form id="theForm">
           <input
             type="text"
             placeholder="Write the topic of the poem..."
@@ -23,7 +24,7 @@
           />
           <input type="submit" value="submit" class="submit" />
         </form>
-        <div class="thePoem">
+        <div class="thePoem" id="thePoem">
           Suicide's Note<br />Langston Hughes<br />The calm,<br />
           Cool face of the river<br />
           Asked me for a kiss
