@@ -1,5 +1,4 @@
 function displayPoem(events) {
-  alert("what is your problem");
   events.preventDefault();
   new Typewriter("#thePoem", {
     strings: "Nature's first green is gold,",
