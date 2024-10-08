@@ -52,6 +52,11 @@ form {
   margin-bottom: 20px;
   border-left: 5px solid rgb(232, 164, 232);
   box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+  line-height: 25px;
+}
+
+strong {
+  color: rgb(239, 100, 239);
 }
 a {
   color: rgb(239, 100, 239);
