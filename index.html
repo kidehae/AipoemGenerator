@@ -14,19 +14,22 @@
         <h1>AI poem Generator</h1>
       </heading>
       <main>
-        <form id="theForm">
-          <input
-            type="text"
-            placeholder="Write the topic of the poem..."
-            required
-            autofocus
-            autocomplete="off"
-            class="topic"
-            id="topic"
-          />
-          <input type="submit" value="submit" class="submit" />
-        </form>
-        <div class="thePoem" id="thePoem">
+        <div class="form-container">
+          <form id="theForm">
+            <input
+              type="text"
+              placeholder="Write the topic of the poem..."
+              required
+              autofocus
+              autocomplete="off"
+              class="topic"
+              id="topic"
+            />
+            <input type="submit" value="submit" class="submit" />
+          </form>
+          <div class="hints">i.e Flower, Love, Friendship....</div>
+        </div>
+        <div class="thePoem noPoem" id="thePoem">
           Suicide's Note<br />Langston Hughes<br />The calm,<br />
           Cool face of the river<br />
           Asked me for a kiss
